@@ -1,8 +1,8 @@
-package me.alex4386.gachon.springboot_test.hello;
+package me.alex4386.gachon.sw14856.week02.hello;
 
-import me.alex4386.gachon.springboot_test.Scalar;
+import io.swagger.v3.oas.annotations.Hidden;
+import me.alex4386.gachon.sw14856.week02.Scalar;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
     @GetMapping("/")
+    @Hidden
     public String apiSpec() {
         return Scalar.generateScalarDocs("/swagger-ui");
     }

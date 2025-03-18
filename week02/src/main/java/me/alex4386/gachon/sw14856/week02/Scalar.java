@@ -1,4 +1,4 @@
-package me.alex4386.gachon.springboot_test;
+package me.alex4386.gachon.sw14856.week02;
 
 public class Scalar {
     public static String generateScalarDocs(String endpoint) {

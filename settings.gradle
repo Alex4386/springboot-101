@@ -1,2 +1,3 @@
 rootProject.name = 'springboot-101'
 include(':week02')
+include(':week03')

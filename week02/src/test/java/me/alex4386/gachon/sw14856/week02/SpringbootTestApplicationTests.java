@@ -1,6 +1,6 @@
-package me.alex4386.gachon.springboot_test;
+package me.alex4386.gachon.sw14856.week02;
 
-import me.alex4386.gachon.springboot_test.hello.User;
+import me.alex4386.gachon.sw14856.week02.hello.User;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 

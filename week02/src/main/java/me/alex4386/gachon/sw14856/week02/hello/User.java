@@ -1,4 +1,4 @@
-package me.alex4386.gachon.springboot_test.hello;
+package me.alex4386.gachon.sw14856.week02.hello;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Getter;
