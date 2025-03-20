@@ -11,6 +11,7 @@ import java.util.List;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @Data
 public class GradeData {
+    public String id = null;
     public String name;
 
     /**
