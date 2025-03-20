@@ -1,4 +1,4 @@
-package me.alex4386.gachon.sw14856.week03.controller;
+package me.alex4386.gachon.sw14856.week03.controllers;
 
 import io.swagger.v3.oas.annotations.tags.Tag;
 import me.alex4386.gachon.sw14856.week03.components.GradeStore;
