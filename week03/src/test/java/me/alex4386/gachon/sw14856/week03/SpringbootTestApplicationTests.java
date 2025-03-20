@@ -1,6 +1,5 @@
 package me.alex4386.gachon.sw14856.week03;
 
-import me.alex4386.gachon.sw14856.week02.hello.User;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 

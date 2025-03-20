@@ -1,5 +1,6 @@
 package gcu.wa.calculator;
 
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -8,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/calculator")
+@Tag(name = "계산기 (1)", description = "계산기 예제 API 1번 입니다")
 public class CalculatorController {
 
     @PostMapping("/add")
