@@ -32,7 +32,7 @@ public class MultiGradeController {
         data.id = uuid.toString();
         this.store.set(uuid.toString(), data);
 
-        return ResponseEntity.ok(new ResponsePayload(true, uuid.toString()));
+        return ResponseEntity.ok(new ResponsePayload(true, data));
     }
 
     @GetMapping("/avg")
