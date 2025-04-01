@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        /* stolen from stripe */
+        :root {
+            --gradientColorZero: #a960ee;
+            --gradientColorOne: #ff333d;
+            --gradientColorTwo: #90e0ff;
+            --gradientColorThree: #ffcb57;
+        }
+
+        /* gradient */
+        body {
+            background: linear-gradient(135deg, var(--gradientColorZero), var(--gradientColorOne), var(--gradientColorTwo), var(--gradientColorThree));
+        }
+    </style>
+</head>
+<body>
+    <div class="flex mx-auto max-w-screen-xl h-screen items-center">
+        <div class="flex flex-col p-4 items-center justify-center w-full">
+            <div class="flex flex-col gap-4 text-center rounded-md bg-white/25 p-4 backdrop-blur-lg border-0.4 z-1">
+                <h1 class="text-4xl font-light" th:text="'Hello, '+${name}"></h1>
+                <p>Welcome to Spring Boot + Thymeleaf Stack</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
