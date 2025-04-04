@@ -15,4 +15,4 @@ COPY ${JAR_FILE} week05-server.jar
 # healthcheck
 HEALTHCHECK --interval=10s --timeout=3s --retries=3 CMD curl -f http://127.0.0.1/hello || exit 1
 
-ENTRYPOINT ["java", "-Djava.security.egd=file:/dev/./urandom", "-server", "-jar", "/week03-server.jar"]
+ENTRYPOINT ["java", "-Djava.security.egd=file:/dev/./urandom", "-server", "-jar", "/week05-server.jar"]
