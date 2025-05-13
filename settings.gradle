@@ -4,3 +4,7 @@ include(':week03')
 include(':week05')
 include(':week06')
 include(':week09')
+include(':week10')
+
+include(':week11:client')
+include(':week11:server')
