@@ -1,2 +1,7 @@
 service:
   name: 'default service for service b'
+student:
+  data:
+    - name: 'Alice in the Wonderland'
+      studentId: '202535327'
+      description: 'Eating "magic" mushrooms and get "high"'

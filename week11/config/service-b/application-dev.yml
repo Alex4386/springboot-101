@@ -1,2 +1,6 @@
 service:
   name: 'dev service for service b'
+student:
+  data:
+    - name: 'John Doe'
+      studentId: 'stubId'

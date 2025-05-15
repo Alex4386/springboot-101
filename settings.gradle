@@ -6,5 +6,6 @@ include(':week06')
 include(':week09')
 include(':week10')
 
-include(':week11:client')
+include(':week11:client-service-a')
+include(':week11:client-service-b')
 include(':week11:server')
