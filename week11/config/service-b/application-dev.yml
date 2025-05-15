@@ -1,0 +1,2 @@
+service:
+  name: 'dev service for service b'
