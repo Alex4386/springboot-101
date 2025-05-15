@@ -5,7 +5,7 @@ student:
     - name: 'Sanghui Park'
       studentId: '201935044'
 
-#logging:
-#  level:
-#    # Due to requirement of the project, we are not going to set it as WARN
-#    root: WARN
+logging:
+  level:
+    # Due to requirement of the project, we are not going to set it as WARN
+    root: WARN
