@@ -31,15 +31,16 @@ public class StudentDataService {
             StringBuilder builder = new StringBuilder("Student: ");
 
             String name = student.get("name");
-            String id = student.get("id");
+            String id = student.get("studentId");
 
             if (name == null) continue;
-            if (id != null) {
-                builder.append("#"+student.get("id"));
-                builder.append(" ");
-            }
 
             builder.append(name);
+            if (id != null) {
+                builder.append(" ");
+                builder.append("(#"+id+")");
+            }
+
             logger.info(builder.toString());
         }
     }
