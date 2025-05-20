@@ -17,3 +17,7 @@ This repository utilizes gradle multi-project for streamlined monorepo experienc
 ./gradlew :week02:bootRun
 ```
 
+Due to some of the weeks requiring multiple projects to be run, some of the projects have nested projects. To build the specific project (i.e. `week11/client-service-a`), run the following command:
+```bash
+./gradlew :week11:client-service-a:bootRun
+```
