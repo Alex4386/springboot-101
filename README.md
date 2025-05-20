@@ -12,12 +12,12 @@
   - Learning to discriminate between SW architecture thinking and characteristics
 
 ## Build Guide
-This repository utilizes gradle multi-project for streamlined monorepo experience. To build the specific project (i.e. `week02`), run the following command:
+This repository utilizes gradle multi-project for streamlined monorepo experience. To run the specific project (i.e. `week02`), run the following command:
 ```bash
 ./gradlew :week02:bootRun
 ```
 
-Due to some of the weeks requiring multiple projects to be run, some of the projects have nested projects. To build the specific project (i.e. `week11/client-service-a`), run the following command:
+Due to some of the weeks requiring multiple projects to be run, some of the projects have nested projects. To run the specific project (i.e. `week11/client-service-a`), run the following command:
 ```bash
 ./gradlew :week11:client-service-a:bootRun
 ```
