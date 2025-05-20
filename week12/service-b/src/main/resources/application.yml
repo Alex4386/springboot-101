@@ -1,0 +1,36 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: week12-service-b
+
+springdoc:
+  api-docs:
+    path: /openapi
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "info"
+  info:
+    env:
+      enabled: true
+
+info:
+  app:
+    name: service-b
+    description: GCU Service-b MSA by 201935044 Sanghui Park
+    version: 1.0.0
+
+
+
+

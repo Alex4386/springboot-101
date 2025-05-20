@@ -9,3 +9,7 @@ include(':week10')
 include(':week11:client-service-a')
 include(':week11:client-service-b')
 include(':week11:server')
+
+include(':week12:service-a')
+include(':week12:service-b')
+include(':week12:eureka')
