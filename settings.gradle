@@ -13,3 +13,5 @@ include(':week11:server')
 include(':week12:service-a')
 include(':week12:service-b')
 include(':week12:eureka')
+
+include(':week13')
